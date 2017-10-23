@@ -3,42 +3,201 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurant</title>
+    <!--            CSS RESET           -->
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+    <!--            BOOTSTRAP           -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!--            CUSTOM CSS          -->
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <!--            GOOGLE FONTS        -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+    <!--            LIGHTBOX            -->
+    <link href="https://fastcdn.org/Lightbox/2.8.1/css/lightbox.css" rel="stylesheet">
+    <!--            FONT AWESOME        -->
+    <link href="https://fastcdn.org/Font-Awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
+      
     <!--                NAVIGATION BAR          -->
-    <div class="container-fluid bg-main">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><h1>Bistro</h1></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TasteBuds</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Reserve</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-dark contact-button">Contact Us</button>
-              </li>
-            </ul>
+      
+      <div class="container-fluid bg-main">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><h1>Bistro</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TasteBuds</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-dark button">Reservations</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
           </div>
-        </nav>
+          
+          <!--          WELCOME           -->
+          
+          <div class="container">
+             <div class="jumbotron text-center">
+                <img src="./resources/images/pattern2.svg">
+                <p class="lead">Welcome To Our Bistro</p>
+                <h1 class="display-3">- Bistro -</h1>
+                <p class="lead">
+                    <a class="btn btn-dark button" href="#" role="button">Learn more</a>
+                </p>
+            </div> 
+          </div>
       </div>
-    </div>
-
+      
+      <!--          MENU            -->
+      
+      <div class="container-fluid menu">
+        <div class="container menu-text">
+            <div class="text-center">
+                <img src="./resources/images/pattern.svg">
+                <h1>Our Delicious Menu</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+            </div>  
+        </div>
+        <div class="container">
+            <div class="row dishname">
+                <div class="col-md-3">
+                    <img src="./resources/images/bg.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h3>Spicy Chicken Mushroom</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="price">$28</p>
+                </div>
+            </div>
+            <div class="row dishname">
+                <div class="col-md-3">
+                    <img src="./resources/images/bg.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h3>Spicy Chicken Mushroom</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="price">$28</p>
+                </div>
+            </div>  
+            <div class="row dishname">
+                <div class="col-md-3">
+                    <img src="./resources/images/bg.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h3>Spicy Chicken Mushroom</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="price">$28</p>
+                </div>
+            </div>  
+            <div class="row dishname">
+                <div class="col-md-3">
+                    <img src="./resources/images/bg.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h3>Spicy Chicken Mushroom</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="price">$28</p>
+                </div>
+            </div>  
+        </div>
+      </div>
+      
+      <!--          TASTEBUDS           -->
+      
+      <div class="container-fluid bg-tastebuds">
+        <div class="container text-center">
+            <img src="./resources/images/pattern.svg">
+            <h1>TasteBuds</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>  
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>  
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>  
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>  
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>
+            <div class="col-md-2 col-pad-0">
+                <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
+            </div>  
+        </div>
+      </div>
+      
+      <!--          OUR TEAM           -->
+      
+      <div class="container-fluid team text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./resources/images/chef-1.jpeg">
+                    <h4>Thomas Frank</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
+                    <div class="social-icon-pack">
+                        <span><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./resources/images/chef-2.jpeg">
+                    <h4>Nancy Frank</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
+                    <div class="social-icon-pack">
+                       <span><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./resources/images/chef-3.jpeg">
+                    <h4>Martin John</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
+                    <div class="social-icon-pack">
+                       <span><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+    <script src="https://fastcdn.org/Lightbox/2.8.1/js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
