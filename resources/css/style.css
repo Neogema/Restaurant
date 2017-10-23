@@ -1,0 +1,37 @@
+/*  GENERAL STYLING */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Pacifico', cursive;
+    color: #bb9f05;
+}
+
+/*  NAVIGATION BAR  */
+
+.bg-main {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.nav-link {
+    color: #ffffff!important;
+    padding-left: 2rem!important;
+}
+.contact-button {
+    margin-left: 1.2rem;
+    background-color: transparent;
+    border: 2px solid #bb9f05;
+}
+.contact-button:hover {
+    background-color: #bb9f05;
+    border: 2px solid #bb9f05;
+}
