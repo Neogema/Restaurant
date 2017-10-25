@@ -1,10 +1,11 @@
 /*  GENERAL STYLING */
-
+html {
+    overflow-x: hidden;
+}
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 h1, h2, h3, h4 {
     font-family: 'Pacifico', cursive;
@@ -55,6 +56,13 @@ h1, h2, h3, h4 {
     color: #ffffff!important;
     padding-left: 2rem!important;
 }
+.navbar-toggler {
+    border: 2px solid #bb9f05!important;
+    border-radius: 0;
+}
+.fa-bars {
+    color: #ffffff;
+}
 
 /*  WELCOME   */
 
@@ -86,7 +94,7 @@ h1, h2, h3, h4 {
     width: 100%; 
 }
 .price {
-    font-size: 5rem!important;
+    font-size: 4rem!important;
     margin-top: 2rem;
 }
 
