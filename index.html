@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description of webpage for Search Engines">
     <title>Restaurant</title>
     <!--            CSS RESET           -->
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
@@ -15,6 +16,10 @@
     <link href="https://fastcdn.org/Lightbox/2.8.1/css/lightbox.css" rel="stylesheet">
     <!--            FONT AWESOME        -->
     <link href="https://fastcdn.org/Font-Awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--            ANIMATE.CSS         -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--            WOW.JS              -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   </head>
   <body>
       
@@ -23,26 +28,26 @@
       <div class="container-fluid bg-main">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><h1>Bistro</h1></a>
+                <a class="navbar-brand wow fadeInUp" href="#"><h1>Bistro</h1></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto wow fadeInUp">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="#menu">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">TasteBuds</a>
+                            <a class="nav-link" href="#tastebuds">TasteBuds</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Team</a>
+                            <a class="nav-link" href="#team">Our Team</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-dark button">Reservations</button>
+                            <button class="btn btn-dark button"><a href="#reservation">Reservations</a></button>
                         </li>
                     </ul>
                 </div>
@@ -54,9 +59,9 @@
           <div class="container">
              <div class="jumbotron text-center">
                 <img src="./resources/images/pattern2.svg">
-                <p class="lead">Welcome To Our Bistro</p>
-                <h1 class="display-3">- Bistro -</h1>
-                <p class="lead">
+                <p class="lead wow fadeInUp">Welcome To Our Bistro</p>
+                <h1 class="display-3 wow fadeInUp">- Bistro -</h1>
+                <p class="lead wow fadeInUp">
                     <a class="btn btn-dark button" href="#" role="button">Learn more</a>
                 </p>
             </div> 
@@ -65,16 +70,16 @@
       
       <!--          MENU            -->
       
-      <div class="container-fluid menu">
+      <div class="container-fluid menu" id="menu">
         <div class="container menu-text">
             <div class="text-center">
-                <img src="./resources/images/pattern.svg">
-                <h1>Our Delicious Menu</h1>
+                <img class="wow fadeInUp" src="./resources/images/pattern.svg">
+                <h1 class="wow fadeInUp">Our Delicious Menu</h1>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
             </div>  
         </div>
         <div class="container">
-            <div class="row dishname">
+            <div class="row dishname wow fadeInUp">
                 <div class="col-md-3">
                     <img src="./resources/images/bg.jpg">
                 </div>
@@ -87,7 +92,7 @@
                     <p class="price">$28</p>
                 </div>
             </div>
-            <div class="row dishname">
+            <div class="row dishname wow fadeInUp">
                 <div class="col-md-3">
                     <img src="./resources/images/bg.jpg">
                 </div>
@@ -100,7 +105,7 @@
                     <p class="price">$28</p>
                 </div>
             </div>  
-            <div class="row dishname">
+            <div class="row dishname wow fadeInUp">
                 <div class="col-md-3">
                     <img src="./resources/images/bg.jpg">
                 </div>
@@ -113,7 +118,7 @@
                     <p class="price">$28</p>
                 </div>
             </div>  
-            <div class="row dishname">
+            <div class="row dishname wow fadeInUp">
                 <div class="col-md-3">
                     <img src="./resources/images/bg.jpg">
                 </div>
@@ -131,13 +136,13 @@
       
       <!--          TASTEBUDS           -->
       
-      <div class="container-fluid bg-tastebuds">
+      <div class="container-fluid bg-tastebuds" id="tastebuds">
         <div class="container text-center">
-            <img src="./resources/images/pattern.svg">
-            <h1>TasteBuds</h1>
+            <img class="wow fadeInUp" src="./resources/images/pattern.svg">
+            <h1 class="wow fadeInUp">TasteBuds</h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
         </div>
-        <div class="row">
+        <div class="row wow fadeInUp">
             <div class="col-md-2 col-pad-0">
                 <a href="./resources/images/image-1.jpg" data-lightbox="image-1"><img class="tastebuds-img" src="./resources/images/image-1.jpg"></a>
             </div>  
@@ -161,10 +166,13 @@
       
       <!--          OUR TEAM           -->
       
-      <div class="container-fluid team text-center">
+      <div class="container-fluid team text-center" id="team">
         <div class="container">
+            <img class="wow fadeInUp" src="./resources/images/pattern.svg">
+            <h1 class="wow fadeInUp">Our Team</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros. In eu purus pulvinar, laoreet enim sit amet, cursus eros. Cras mollis ex a elit congue, sed commodo nibh vehicula. Phasellus quis dapibus metus.</p>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp">
                     <img src="./resources/images/chef-1.jpeg">
                     <h4>Thomas Frank</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
@@ -174,7 +182,7 @@
                         <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp">
                     <img src="./resources/images/chef-2.jpeg">
                     <h4>Nancy Frank</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
@@ -184,7 +192,7 @@
                         <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp">
                     <img src="./resources/images/chef-3.jpeg">
                     <h4>Martin John</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
@@ -197,7 +205,53 @@
             </div>
         </div>
       </div>
+      
+      <!--          RESERVATIONS            -->
+      
+      <div class="container-fluid reservation text-center" id="reservation">
+        <div class="container">
+            <img class="wow fadeInUp" src="resources/images/pattern.svg">
+            <h1 class="wow fadeInUp">Reservations</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel augue non mauris sodales varius et non eros.</p>
+            <div class="row justify-content-center wow fadeInUp">
+                <form class="col-md-8">
+                  <div class="form-group">
+                    <label class="col-form-label" for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-form-label" for="formGroupExampleInput2">Email</label>
+                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email">
+                  </div>
+                    <div class="form-group">
+                    <label class="col-form-label" for="formGroupExampleInput2">Details</label>
+                    <textarea type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your message"></textarea>
+                  </div>
+                  <a class="btn btn-dark button" href="#" role="button">Reserve Now</a>
+                </form>   
+            </div>  
+        </div>
+      </div>
     
+      <!--          FOOTER          -->
+      
+      <footer class="wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="text-muted col-md-6">
+                <p>&copy Bistro Restaurant Theme V4 2017</p>
+                </div>
+                <div class="social-icon-pack-white col-md-6 text-right">
+                    <span><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                    <span><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                    <span><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                </div>
+            </div>
+        </div>
+      </footer>
+    <!--            LIGHTBOX JQ/JS          -->
     <script src="https://fastcdn.org/Lightbox/2.8.1/js/lightbox-plus-jquery.js"></script>
+    <!--            WOW.JS JS               -->
+    <script>new WOW().init();</script>
   </body>
 </html>
